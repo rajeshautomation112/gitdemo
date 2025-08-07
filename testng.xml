@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/hp/IdeaProjects/mavenprojectweekdays1230selenium/src/test/java/testng_demo/Test_demo.java">
+        <classes>
+
+            <class name="testng_demo.Test_demo">
+
+                <methods>
+                    <include name="enter_usename_And_password"/>
+                    <include name="click_login_button"/>
+                    <include name="verify_login_success"/>
+                    <include name="logout"/>
+                </methods>
+
+            </class>
+            <class name="testng_demo.DataProvider_with_Login">
+
+                        <methods>
+                    <include name="setup"/>
+                        </methods>
+                    </class>
+        </classes>
+    </test>
+</suite>
