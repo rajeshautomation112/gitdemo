@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "D:\\mavenprojectweekdays1230selenium\\src\\test\\resources\\datable.feature",// path
         glue = {"stepDefination"},// package
         plugin = {"pretty","html:target/cucumber-report/Logintable.html"},
-        monochrome = true
+        monochrome = false
 
 )
 
